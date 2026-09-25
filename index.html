@@ -5,202 +5,236 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Marawan's portfolio website showcasing projects, skills, and contact information."
+      content="Marawan portfolio website — developer, designer, and problem-solver building digital products that feel premium and perform beautifully."
     />
-    <title>Marawan | Portfolio</title>
+    <title>Marawan | Creative Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav-bar">
-        <div class="brand">M<span>.</span></div>
-        <nav class="nav" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="button button-small" href="#contact">Hire Me</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-content">
-          <div class="hero-text">
-            <p class="eyebrow">Hello, I'm Marawan</p>
-            <h1>Building clean digital experiences for people and brands.</h1>
-            <p class="lead">
-              I’m a developer focused on building modern, accessible, and user-friendly web
-              experiences. I enjoy turning ideas into polished products that feel fast,
-              intuitive, and memorable.
-            </p>
-            <div class="hero-actions">
-              <a class="button" href="#projects">View Projects</a>
-              <a class="button button-secondary" href="#about">About Me</a>
-            </div>
-            <ul class="hero-stats" aria-label="Highlights">
-              <li><strong>2+</strong><span>Years learning</span></li>
-              <li><strong>10+</strong><span>Projects</span></li>
-              <li><strong>100%</strong><span>Curiosity</span></li>
-            </ul>
-          </div>
-
-          <div class="hero-card" aria-label="Profile card">
-            <div class="avatar">M</div>
-            <div class="card-body">
-              <p class="role">Web Developer</p>
-              <h2>Marawan</h2>
-              <p>Available for freelance work and collaborative product development.</p>
-            </div>
-            <div class="quick-links">
-              <a href="https://github.com/marawan-collab" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="mailto:hello@example.com">Email</a>
-            </div>
-          </div>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-bar">
+          <a href="#top" class="brand" aria-label="Marawan home">M<span>.</span></a>
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="button button-small" href="#contact">Book a Call</a>
         </div>
-      </section>
+      </header>
 
-      <section id="about" class="section">
-        <div class="container two-column">
-          <div>
-            <p class="section-tag">About Me</p>
-            <h2>Passionate about building useful and beautiful products.</h2>
-          </div>
-          <div>
-            <p>
-              I’m a developer who enjoys learning by creating. My work blends problem-solving,
-              design thinking, and clean technical execution. I care about writing code that is
-              maintainable, accessible, and useful in real life.
-            </p>
-            <p>
-              I’m always exploring new tools, improving my craft, and building experiences that
-              help people do more with less friction.
-            </p>
-          </div>
-        </div>
-      </section>
+      <main id="top">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Creative developer • problem solver</p>
+              <h1>Turning ideas into polished digital experiences.</h1>
+              <p class="lead">
+                Hi, I’m Marawan — a developer focused on building high-impact websites,
+                thoughtful interfaces, and digital experiences that are both beautiful and useful.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#projects">View My Work</a>
+                <a class="button button-secondary" href="#about">About Me</a>
+              </div>
 
-      <section id="skills" class="section muted-section">
-        <div class="container">
-          <p class="section-tag">Skills</p>
-          <h2>What I work with</h2>
-          <div class="skills-grid">
-            <div class="skill-card">
-              <span>HTML</span>
-              <small>Semantic, accessible markup</small>
+              <ul class="metrics" aria-label="Key metrics">
+                <li>
+                  <strong>2+</strong>
+                  <span>Years learning</span>
+                </li>
+                <li>
+                  <strong>10+</strong>
+                  <span>Projects built</span>
+                </li>
+                <li>
+                  <strong>100%</strong>
+                  <span>Driven by curiosity</span>
+                </li>
+              </ul>
             </div>
-            <div class="skill-card">
-              <span>CSS</span>
-              <small>Responsive layouts and UI polish</small>
-            </div>
-            <div class="skill-card">
-              <span>JavaScript</span>
-              <small>Interactivity and UX enhancements</small>
-            </div>
-            <div class="skill-card">
-              <span>React</span>
-              <small>Component-focused interfaces</small>
-            </div>
-            <div class="skill-card">
-              <span>Python</span>
-              <small>Backend logic and automation</small>
-            </div>
-            <div class="skill-card">
-              <span>Git</span>
-              <small>Version control and collaboration</small>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section id="projects" class="section">
-        <div class="container">
-          <p class="section-tag">Projects</p>
-          <h2>Selected work</h2>
-          <div class="projects-grid">
-            <article class="project-card">
-              <div class="project-image project-one"></div>
-              <div class="project-content">
-                <h3>Portfolio Website</h3>
-                <p>
-                  A personal showcase designed to communicate skills, projects, and personality
-                  with a simple and modern interface.
-                </p>
-                <div class="project-tags">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JS</span>
+            <div class="profile-panel" aria-label="Profile card">
+              <div class="profile-glow"></div>
+              <div class="profile-card">
+                <div class="avatar">M</div>
+                <div class="profile-content">
+                  <span class="mini-label">Available for work</span>
+                  <h2>Marawan</h2>
+                  <p>Frontend Developer • UI Designer • Problem Solver</p>
+                </div>
+                <div class="profile-links">
+                  <a href="https://github.com/marawan-collab" target="_blank" rel="noreferrer">GitHub</a>
+                  <a href="mailto:hello@example.com">Email</a>
+                  <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
                 </div>
               </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-image project-two"></div>
-              <div class="project-content">
-                <h3>Business Landing Page</h3>
-                <p>
-                  A responsive landing page concept focused on conversion, clarity, and strong
-                  brand storytelling.
-                </p>
-                <div class="project-tags">
-                  <span>UI</span>
-                  <span>UX</span>
-                  <span>Responsive</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-image project-three"></div>
-              <div class="project-content">
-                <h3>Task Management App</h3>
-                <p>
-                  A productivity-focused dashboard that organizes tasks, tracks progress, and keeps
-                  work focused and actionable.
-                </p>
-                <div class="project-tags">
-                  <span>Python</span>
-                  <span>Productivity</span>
-                  <span>UI</span>
-                </div>
-              </div>
-            </article>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section cta-section">
-        <div class="container cta-box">
+        <section id="about" class="section">
+          <div class="container split-layout">
+            <div>
+              <p class="section-tag">About</p>
+              <h2>Good design and solid code go hand in hand.</h2>
+            </div>
+            <div class="about-copy">
+              <p>
+                I enjoy bringing ideas to life through clean interfaces, responsive layouts,
+                and smooth user experiences. My work combines visual clarity with technical
+                attention to detail, helping products feel modern, useful, and memorable.
+              </p>
+              <p>
+                I’m constantly learning new tools, improving my craft, and creating digital
+                experiences that help people connect with brands and services more naturally.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="section muted-section">
+          <div class="container">
+            <p class="section-tag">Services</p>
+            <h2>What I can help you build</h2>
+            <div class="services-grid">
+              <article class="info-card">
+                <span class="icon">01</span>
+                <h3>Landing Pages</h3>
+                <p>Clean, conversion-focused pages that communicate a message quickly and clearly.</p>
+              </article>
+              <article class="info-card">
+                <span class="icon">02</span>
+                <h3>UI Design</h3>
+                <p>Modern interfaces with thoughtful spacing, typography, and usability in mind.</p>
+              </article>
+              <article class="info-card">
+                <span class="icon">03</span>
+                <h3>Web Development</h3>
+                <p>Responsive, accessible websites built with performance and maintainability in mind.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="container">
+            <p class="section-tag">Portfolio</p>
+            <h2>Selected projects</h2>
+            <div class="projects-grid">
+              <article class="project-card">
+                <div class="project-visual visual-one"></div>
+                <div class="project-body">
+                  <h3>Portfolio Website</h3>
+                  <p>
+                    A premium personal portfolio designed to highlight skills, projects, and brand identity.
+                  </p>
+                  <div class="tag-row">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>UX</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-visual visual-two"></div>
+                <div class="project-body">
+                  <h3>Business Landing Page</h3>
+                  <p>
+                    A polished marketing page concept built to attract attention and communicate value clearly.
+                  </p>
+                  <div class="tag-row">
+                    <span>Branding</span>
+                    <span>Web</span>
+                    <span>Responsive</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-visual visual-three"></div>
+                <div class="project-body">
+                  <h3>Task Dashboard</h3>
+                  <p>
+                    A productivity interface focused on simple flow, clarity, and effective task management.
+                  </p>
+                  <div class="tag-row">
+                    <span>Productivity</span>
+                    <span>UI</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="section muted-section">
+          <div class="container">
+            <p class="section-tag">Experience</p>
+            <h2>How I work</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-year">01</span>
+                <div>
+                  <h3>Discover</h3>
+                  <p>I learn the goals, audience, and story behind the product before designing anything.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">02</span>
+                <div>
+                  <h3>Design</h3>
+                  <p>I create layouts and interactions that are engaging, clear, and easy to use.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">03</span>
+                <div>
+                  <h3>Build</h3>
+                  <p>I turn the design into clean, responsive, maintainable code that performs well.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section cta-section">
+          <div class="container cta-box">
+            <div>
+              <p class="section-tag">Let’s build something strong</p>
+              <h2>Need a portfolio, landing page, or web presence that stands out?</h2>
+            </div>
+            <a class="button" href="#contact">Start a Project</a>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <div class="container footer-layout">
           <div>
-            <p class="section-tag">Let’s work together</p>
-            <h2>Need a thoughtful, well-crafted digital experience?</h2>
+            <p class="footer-name">Marawan</p>
+            <p>Open to freelance opportunities, collaborations, and meaningful digital work.</p>
           </div>
-          <a class="button" href="#contact">Start a Project</a>
+          <div class="footer-links">
+            <a href="https://github.com/marawan-collab" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:hello@example.com">Email</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
         </div>
-      </section>
-    </main>
-
-    <footer id="contact" class="site-footer">
-      <div class="container footer-content">
-        <div>
-          <p class="footer-name">Marawan</p>
-          <p>Available for freelance projects, collaborations, and new opportunities.</p>
-        </div>
-        <div class="footer-links">
-          <a href="https://github.com/marawan-collab" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="mailto:hello@example.com">Email</a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
-      </div>
-      <p class="copyright">© <span id="year"></span> Marawan. All rights reserved.</p>
-    </footer>
+        <p class="copyright">© <span id="year"></span> Marawan. All rights reserved.</p>
+      </footer>
+    </div>
 
     <script src="script.js"></script>
   </body>
