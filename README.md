@@ -1,16 +1,24 @@
-# Code with Codespaces
+# Portfolio Project
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This repository now contains a starter portfolio website for Marawan.
 
-Hey marawan-collab!
+## Files
+- `index.html` — portfolio homepage
+- `styles.css` — site styling and responsive layout
+- `script.js` — small script for the footer year
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+## Run locally
+From the repository root, start a simple web server:
 
-Remember, it's self-paced so feel free to take a break! ☕️
+```bash
+python3 -m http.server 8000
+```
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/marawan-collab/skills-code-with-codespaces/issues/1)
+Then open your browser to:
 
----
+```text
+http://localhost:8000
+```
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+## Customize it
+Update the text, project cards, email address, and social links in `index.html` to match your real information.
